@@ -13,8 +13,14 @@ ul {
   padding: 0;
 }
 
-ul {
-  list-style: none;
+ul,
+a {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
 }
 
 img {
@@ -99,7 +105,12 @@ img {
   color: #2e2f42;
   text-decoration: none;
 }
-
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 .contacts {
   margin-left: auto;
 }
@@ -146,7 +157,10 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 /* FEATURES */
 .features-list {
   display: flex;
